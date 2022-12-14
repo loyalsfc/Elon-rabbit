@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* @layer utilities{
+  .nav{
+    @apply 
+  }
+  .btn-outline{
+    @apply 
+  }
+  .tokenomics-item{
+   @apply absolute z-10 flex flex-col justify-center initial text-center backdrop-blur py-4 px-8 border border-[#ffffff17] rounded-[35px] bg-transparent w-[150px] md:min-w-[200px]
+  }
+  .content{
+    @apply text-lg mb-4
+  }
+} */
+
+.height-0{
+  height: 0 !important;
+}
+
+.bg-gradient{
+  background-image: linear-gradient(90deg, #2a1b41, #7dffa1);
+}
+.bg-just{
+  background-image: linear-gradient(135deg, #2a1b41, #1e3911);
+}
+
+.h-calc{
+  height: calc(100vh - 98px);
+}
