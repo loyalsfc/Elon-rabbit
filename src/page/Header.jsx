@@ -12,7 +12,7 @@ function Header() {
             <i class="fa-solid fa-xmark absolute right-4 top-4 text-white text-xl" onClick={toggleMobileNav}></i>
             <NavItems clickHandler={toggleMobileNav}/>
         </div>
-        <header className='flex items-center justify-between py-6 px-6 position-sticky top-0 bg-black/[0.15]'>
+        <header className='flex items-center font-russo justify-between py-6 px-6 position-sticky top-0 bg-black/[0.15]'>
             <div className='flex items-center'>
                 <img src={logo} alt="" className='h-12 mr-4 rounded-lg' />
                 <span className='text-2xl font-stix'>ELON RABBIT</span>

@@ -17,9 +17,9 @@ function Home() {
             <Header />
             <section className=''>
                 <div className="container mx-auto h-calc flex items-center justify-center">
-                    <article className='text-center font-medium flex flex-col justify-center items-center gap-4'>
-                        <h3 data-aos="slide-up" className='text-[50px] leading-[150%]'>Elon Musk asks you FOLLOW</h3>
-                        <h1 data-aos="slide-up" className='text-[50px] leading-[150%] font-bold'>"ELON RABBIT"</h1>
+                    <article className=' text-center font-medium flex flex-col justify-center items-center gap-4'>
+                        <h3 data-aos="slide-up" className='font-russo text-[50px] leading-[150%]'>Elon Musk asks you FOLLOW</h3>
+                        <h1 data-aos="slide-up" className='font-russo text-[50px] leading-[150%] font-bold'>"ELON RABBIT"</h1>
                         <h3 data-aos="slide-up" className='text-2xl'>So that we can go to the moon together</h3>
                         <p  data-aos="slide-up"className='text-lg'>Elon Rabbit is about to change the crypto future</p>
                         <div data-aos="slide-up" className='flex gap-4 font-medium'>
@@ -36,7 +36,7 @@ function Home() {
                             <img src={rabbit} alt="" className='lg:w-3/4 rounded-3xl'/>
                         </div>
                         <article className='text-xl md:w-1/2 md:pr-16 leading-[170%]'>
-                            <h2 data-aos="fade-in" data-aos-delay="10" className='text-[3rem] leading-[120%] mb-8 font-semibold text-center md:text-left'>About</h2>
+                            <h2 data-aos="fade-in" data-aos-delay="10" className='font-russo text-[3rem] leading-[120%] mb-8 font-semibold text-center md:text-left'>About</h2>
                             <p data-aos="fade-in" data-aos-delay="250" className='mb-4'>It was the day  "Elon rabbit" token has been created to change the future of the meme world.</p> 
                             <p data-aos="fade-in" data-aos-delay="500">This will be carried out with the help of our meme-loving community members, massive marketing campaigns,  and hard-working and transparent team members</p>
                         </article>
@@ -45,8 +45,8 @@ function Home() {
             </main>
             <main className='bg-black'>
                 <div className="container mx-auto px-4">
-                    <section className='pb-[100px]'>
-                        <h2 data-aos="zoom-in" class="text-[3rem] leading-[120%] mb-8 font-semibold text-center">Tokenomics</h2>
+                    <section className='pb-[100px]' id='tokenomics'>
+                        <h2 data-aos="zoom-in" class="font-russo text-[3rem] leading-[120%] mb-8 font-semibold text-center">Tokenomics</h2>
                         <div class="bg-just md:w-1/2 lg:w-[35%] p-9 pt-[53px] rounded-2xl mx-auto">
                             <div class=" flex flex-col gap-5">
                                 <p data-aos="slide-up" class="paragraph small">Total Supply: 100,000,000<br/>‍<br/><br/> - 3% Buy Tax<br/> - 5% Sell Tax<br/></p>
@@ -57,7 +57,7 @@ function Home() {
                         </div>
                     </section>
                     <section className='pb-[100px]'>
-                        <h2 data-aos="zoom-in" className='text-[2rem] leading-[120%] mb-8 font-semibold text-center'>IS ELON RABBIT THE NEXT BITCOIN?</h2>
+                        <h2 data-aos="zoom-in" className='font-russo text-[2rem] leading-[120%] mb-8 font-semibold text-center '>Is Elon Rabbit The Next Bitcoin?</h2>
                         <p data-aos="zoom-in" className='text-center'><i>"ON DECEMBER 13, 2022, ELON MUSK POSTED "FOLLOW 🐰" ON HIS TWITTER ACCOUNT"</i></p>
                         <img data-aos="zoom-in" src={elonmusk} alt="" className='mx-auto mt-8 hover:scale-110 transition-all' />
                     </section>
@@ -65,6 +65,7 @@ function Home() {
             </main>
             <main>
                 <div className="container mx-auto px-4 md:px-0 py-[100px]">
+                    <h2 data-aos="zoom-in" className='font-russo text-[2rem] leading-[120%] mb-8 font-semibold text-center'>ROADMAP</h2>
                     <div data-aos="slide-up" className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
                         <RoadmapItem>
                             <h2 className='font-semibold text-2xl mb-4'>1. The Beginning</h2>

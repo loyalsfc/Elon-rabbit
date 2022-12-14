@@ -13,7 +13,7 @@ function Footer() {
                     <span className='bg-white  text-black/[0.8] p-2 rounded-full h-10 w-10 block'><i className="fa-brands fa-medium"></i></span>
                 </div>
             </div>
-            <p className='text-xs border-t mt-8 pt-8 text-center'>© 2022 Elon Rabbit | All Rights Reserved</p>
+            <p className='text-xs border-t border-t-[0.1px] mt-8 pt-8 text-center'>© 2022 Elon Rabbit | All Rights Reserved</p>
         </footer>
     )
 }
